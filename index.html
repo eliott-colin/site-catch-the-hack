@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch the Hack - Download</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: #f5f5f5;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 500px;
+            width: 100%;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .logo {
+            background: linear-gradient(135deg, #6b2d8f 0%, #4a1d66 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(107, 45, 143, 0.4);
+        }
+
+        .logo-icon {
+            font-size: 60px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            color: #1a1a2e;
+            font-size: 32px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        .version-badge {
+            display: inline-block;
+            background: #6b2d8f;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+
+        .download-btn {
+            background: linear-gradient(135deg, #6b2d8f 0%, #4a1d66 100%);
+            color: white;
+            border: none;
+            padding: 18px 50px;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(107, 45, 143, 0.4);
+            margin-bottom: 20px;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(107, 45, 143, 0.5);
+        }
+
+        .download-btn:active {
+            transform: translateY(-1px);
+        }
+
+        .download-icon {
+            margin-right: 10px;
+            font-size: 20px;
+        }
+
+        .info-box {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin-top: 30px;
+            border-left: 4px solid #6b2d8f;
+        }
+
+        .info-box h3 {
+            color: #1a1a2e;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        .info-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+            font-size: 14px;
+        }
+
+        .info-item:last-child {
+            border-bottom: none;
+        }
+
+        .info-label {
+            color: #666;
+            font-weight: 600;
+        }
+
+        .info-value {
+            color: #1a1a2e;
+        }
+
+        .note {
+            color: #999;
+            font-size: 12px;
+            margin-top: 20px;
+            line-height: 1.5;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 26px;
+            }
+
+            .download-btn {
+                padding: 15px 40px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <div class="logo-icon">🃏</div>
+            <h1 style="color: white; margin: 0;">Catch the Hack</h1>
+        </div>
+
+        <h1>Download the Game</h1>
+        <p class="subtitle">
+            Join the cybersecurity adventure! Answer questions, collect roles, and catch the hacker.
+        </p>
+
+        <div class="version-badge">Version 1.0.0</div>
+
+        <a href="universal.apk" class="download-btn" download>
+            <span class="download-icon">⬇</span>
+            Download APK
+        </a>
+
+        <div class="info-box">
+            <h3>App Information</h3>
+            <div class="info-item">
+                <span class="info-label">File Size</span>
+                <span class="info-value">25 MB</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Min. Android</span>
+                <span class="info-value">6.0+</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Players</span>
+                <span class="info-value">2-4 Players</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Category</span>
+                <span class="info-value">Educational Game</span>
+            </div>
+        </div>
+
+        <p class="note">
+            ⚠️ Make sure to enable "Install from Unknown Sources" in your device settings before installing.
+        </p>
+    </div>
+</body>
+</html>
